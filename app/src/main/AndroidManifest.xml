@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.encuestasappnea">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icono"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icono"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EncuestasAppnea">
+        <activity
+            android:name=".RespuestasSondeos"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoDecimaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoNovenabPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoNovenaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoOctavaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoSeptimaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoSextaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoQuintaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoCuartaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoTerceraPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoSegundaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoSondeoPrimeraPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoSextaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoQuintaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoCuartaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoTerceraPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoSegundaPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".PrimerSondeoPrimeraPregunta"
+            android:exported="false" />
+        <activity
+            android:name=".SondeoPreguntas"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

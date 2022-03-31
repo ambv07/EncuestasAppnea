@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SegundoSondeoTerceraPregunta">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="150dp"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:text="3/10"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:padding="40dp"
+        android:minHeight="100dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/recuadro"
+        android:text=" Si usted ronca ¿Su ronquido es ?  "
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="267dp">
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="20sp"
+            android:text="a. Ligeramente más fuerte que respirar" />
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="20sp"
+            android:text="b. Tan fuerte como hablar" />
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="20sp"
+            android:text="c. Más fuerte que hablar " />
+
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="20sp"
+            android:text="d. Muy fuerte - se puede escuchar en habitaciones adyacentes " />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/boton"
+        android:text="Siguiente"
+        android:onClick="btn_segundo_sondeo_cuarta_pregunta"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>
